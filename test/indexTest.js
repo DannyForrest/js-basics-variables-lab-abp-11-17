@@ -2,7 +2,7 @@ const expect = chai.expect;
 
 describe('index.js', function () {
   describe('companyName', function () {
-    it('is set as Scuber123433', function () {
+    it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
     });
 
